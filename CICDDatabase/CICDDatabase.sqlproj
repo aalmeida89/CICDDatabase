@@ -63,4 +63,7 @@
   <ItemGroup>
     <Build Include="Tables\dbo\Users.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="CICDDatabase.publish.xml" />
+  </ItemGroup>
 </Project>
