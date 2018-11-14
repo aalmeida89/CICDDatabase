@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CICDDatabase", "CICDDatabase\CICDDatabase.sqlproj", "{2552ADEC-527A-48F0-9594-C3C011C23A67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2552ADEC-527A-48F0-9594-C3C011C23A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2552ADEC-527A-48F0-9594-C3C011C23A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2552ADEC-527A-48F0-9594-C3C011C23A67}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2552ADEC-527A-48F0-9594-C3C011C23A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2552ADEC-527A-48F0-9594-C3C011C23A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2552ADEC-527A-48F0-9594-C3C011C23A67}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {073BB70D-604D-4F9B-8B1B-928A4060F1D2}
+	EndGlobalSection
+EndGlobal
