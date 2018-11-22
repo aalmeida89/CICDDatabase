@@ -5,7 +5,7 @@
 	, [BirthDate] DATE NOT NULL
 	, [CPF] VARCHAR(18) NULL
 	, [Title] VARCHAR(24) NULL
-
+	, [Email]VARCHAR(128) NULL
 	CONSTRAINT [PK_Users] PRIMARY KEY (Id)
 )
 GO
