@@ -6,6 +6,7 @@
 	, [CPF] VARCHAR(18) NULL
 	, [Title] VARCHAR(128) NULL
 	, [email] VARCHAR(128) NULL
+	, [dt_birthday] date constraint [df_birthdate] default getdate() 
 	CONSTRAINT [PK_Users] PRIMARY KEY (Id)
 )
 GO
