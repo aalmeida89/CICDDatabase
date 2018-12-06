@@ -7,6 +7,7 @@
 	, [Title] VARCHAR(128) NULL
 	, [email] VARCHAR(128) NULL
 	, [dt_birthday] date constraint [df_birthdate] default getdate() 
+	, [Test] int null
 	CONSTRAINT [PK_Users] PRIMARY KEY (Id)
 )
 GO
