@@ -8,6 +8,7 @@
 	, [email] VARCHAR(128) NULL
 	, [dt_birthday] date constraint [df_birthdate] default getdate() 
 	, [error] bit null
+	, [error_2] bit null
 	CONSTRAINT [PK_Users] PRIMARY KEY (Id)
 )
 GO
