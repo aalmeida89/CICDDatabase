@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[TablePR1]
+(
+	[Id] INT NOT NULL
+	, [Name] VARCHAR NOT NULL
+	, CONSTRAINT [PK_TablePR1] PRIMARY KEY (Id)
+)
